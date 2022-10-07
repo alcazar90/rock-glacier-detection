@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Rock_Glacier" id="Rock_Glacier">
+	<SimpleField name="tessellate" type="int"></SimpleField>
+</Schema>
+<Folder><name>Rock_Glacier</name>
+  <Placemark>
+	<name>Los Helados</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Rock_Glacier">
+		<SimpleData name="tessellate">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.6275860062815,-28.2978834898369 -69.6209044473199,-28.3004712001313 -69.611948366329,-28.293001638516 -69.619543146747,-28.2898210517513 -69.6275860062815,-28.2978834898369</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Maranceles</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Rock_Glacier">
+		<SimpleData name="tessellate">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.7275634427984,-28.4467455777892 -69.7167500658941,-28.4566664623042 -69.6920543886694,-28.42463249906 -69.7077404379814,-28.4197907119325 -69.7275634427984,-28.4467455777892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Copiapó cordillera</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Rock_Glacier">
+		<SimpleData name="tessellate">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-69.8147576437316,-28.4172592336237 -69.640447856898,-28.5178809081991 -69.4408558184468,-28.2281876239527 -69.6078463511061,-28.1352042909585 -69.8147576437316,-28.4172592336237</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
