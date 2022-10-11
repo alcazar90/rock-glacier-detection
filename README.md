@@ -1,9 +1,9 @@
-# rock-glacier-detection
+## Rock GLacier Detection 📡
 Proyecto curso MDS7201-1, en conjunto con el Centro de Modelamiento Matemático (CMM)
 
-
-
-
+<p align="center">
+<img src="fig/rock-glacier-portrait.PNG" width="350"/>
+</p>
 
 
 
