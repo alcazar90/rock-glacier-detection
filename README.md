@@ -6,18 +6,19 @@ Proyecto curso MDS7201-1, en conjunto con el Centro de Modelamiento Matemático 
 </p>
 
 ## Tabla de Contenido
- * [Problema](#problema)
+ * [Contexto y Problema](#contexto-y-problema)
  * [`rock-glacier-dataset`](#rock-glacier-dataset)
  * [Modelo `Skynet`](#modelo-skynet)
+ * [Recursos](#recursos)
 
 
-## Problema
+## Contexto y Problema
 
 **TODO**
 
 ## Rock Glacier Dataset
 
-Repositorio de nuestro _dataset_ [`rock-glacier-dataset`](https://huggingface.co/datasets/alkzar90/rock-glacier-dataset). Fácil de descargar y compartir con la siguiente línea de código utilizando la librería `datasets` de HuggingFace:
+Repositorio de nuestro _dataset_ [`rock-glacier-dataset`](https://huggingface.co/datasets/alkzar90/rock-glacier-dataset). Fácil de descargar y compartir con la siguiente línea de código utilizando la librería `datasets` de HuggingFace🤗:
 
 ```python
 from datasets import load_dataset
@@ -36,6 +37,12 @@ Repositorio del modelo [`Skynet`](https://huggingface.co/alkzar90/skynet).
 ![](https://huggingface.co/blog/assets/51_fine_tune_vit/vit-figure.jpg)
 
 </center>
+
+
+## Recursos
+
+**TODO**
+
 
 ```
 @misc{MDS8201-1-proyecto,
