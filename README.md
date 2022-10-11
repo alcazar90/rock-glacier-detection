@@ -17,7 +17,7 @@ Proyecto curso MDS7201-1, en conjunto con el Centro de Modelamiento Matemático 
 
 ## Rock Glacier Dataset
 
-Repositorio de nuestro _dataset_ [`rock-glacier-dataset`](https://huggingface.co/datasets/alkzar90/rock-glacier-dataset). Para usar nuestro modelo:
+Repositorio de nuestro _dataset_ [`rock-glacier-dataset`](https://huggingface.co/datasets/alkzar90/rock-glacier-dataset). Fácil de descargar y compartir con la siguiente línea de código utilizando la librería `datasets` de HuggingFace:
 
 ```python
 from datasets import load_dataset
