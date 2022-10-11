@@ -5,7 +5,7 @@ Proyecto curso MDS7201-1, en conjunto con el Centro de Modelamiento Matemático 
 <img src="fig/rock-glacier-portrait.png" width="550"/>
 </p>
 
-## Table de Contenido
+## Tabla de Contenido
  * [Problema](#problema)
  * [`rock-glacier-dataset`](#rock-glacier-dataset)
  * [Modelo `Skynet`](#modelo-skynet)
@@ -17,12 +17,25 @@ Proyecto curso MDS7201-1, en conjunto con el Centro de Modelamiento Matemático 
 
 ## Rock Glacier Dataset
 
-**TODO**
+Repositorio de nuestro _dataset_ [`rock-glacier-dataset`](https://huggingface.co/datasets/alkzar90/rock-glacier-dataset). Para usar nuestro modelo:
+
+```python
+from datasets import load_dataset
+
+data = load_dataset('alkzar90/rock-glacier-dataset')
+```
 
 ## Modelo Skynet
 
-**TODO**
+Repositorio del modelo [`Skynet`](https://huggingface.co/alkzar90/skynet).
 
+<br>
+
+<center>
+
+![](https://huggingface.co/blog/assets/51_fine_tune_vit/vit-figure.jpg)
+
+</center>
 
 ```
 @misc{MDS8201-1-proyecto,
