@@ -1,4 +1,4 @@
-## Rock GLacier Detection 📡
+## Rock Glacier Detection 📡
 Proyecto curso MDS7201-1, en conjunto con el Centro de Modelamiento Matemático (CMM)
 
 <p align="center">
