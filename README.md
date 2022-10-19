@@ -28,9 +28,14 @@ data = load_dataset('alkzar90/rock-glacier-dataset')
 
 ## Modelo Skynet
 
-Repositorio del modelo [`Skynet`](https://huggingface.co/alkzar90/skynet).
+<a href="https://colab.research.google.com/drive/1QAMQJlxkQilh_Km_oGtgQtZF6FZ6uPvS?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
-<br>
+En primera instancia entrenamos un clasificador que responda la pregunta:
+¿hay un glaciar o no en la imagen? El proceso de entrenamiento y _workflow_
+se puede encontrar en el Google colab de arriba. Utilizamos _transfer learning_
+sobre  un modelo Visual Transformer.
 
 <center>
 
@@ -38,6 +43,13 @@ Repositorio del modelo [`Skynet`](https://huggingface.co/alkzar90/skynet).
 
 </center>
 
+El modelo y un API de inferencia para ver como funciona sobre algunos ejemplos
+se puede encontrar en el repositorio del modelo [`Skynet`](https://huggingface.co/alkzar90/skynet).
+
+La siguiente versión del modelo es diseñar un modelo de segmentación de 
+imagen: ¿este _pixel_ contiene un glaciar?
+
+<br>
 
 ## Recursos
 
