@@ -26,7 +26,12 @@ from datasets import load_dataset
 data = load_dataset('alkzar90/rock-glacier-dataset')
 ```
 
-## Modelos 
+**TODO:** Describire el _dataset_, "las imagenes fueron extraídas del satelite
+sentinel 2..."
+
+**TODO:** Para la creación de _bounding boxes_ se utilizo [Label Studio](https://labelstud.io).
+
+## Modelo Skynet
 
 ### Modelo `skynet-clasificador`
 
