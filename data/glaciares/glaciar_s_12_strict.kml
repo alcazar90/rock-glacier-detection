@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="glaciar_s_12_strict" id="glaciar_s_12_strict">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>glaciar_s_12_strict</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#glaciar_s_12_strict">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-70.05116144185,-29.2830013164829 -70.0514576646849,-29.2816894724999 -70.048791659171,-29.279277372273 -70.045363937796,-29.2789388318903 -70.0426132971864,-29.2799967705863 -70.0471412748052,-29.2829166813873 -70.0482838485969,-29.2828320462916 -70.0500611856062,-29.2834668095092 -70.05116144185,-29.2830013164829</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

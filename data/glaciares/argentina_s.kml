@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="argentina_s" id="argentina_s">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>argentina_s</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#argentina_s">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-69.8297904145608,-29.122075616589 -69.784087462894,-29.3653168815712 -69.9369384456908,-29.3698871767379 -69.9455712254501,-29.2622313350339 -69.8881886305795,-29.1403567972557 -69.8658449653202,-29.1337552597927 -69.8526418903942,-29.1307083963483 -69.8297904145608,-29.122075616589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
